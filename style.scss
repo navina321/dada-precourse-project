@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap');
+
+$font-body: "Roboto", sans-serif;
+$font-display: "Satisfy", sans-serif;
+
+$color-primary: #6cbce3;
+$color-secondary: #3a4163;
+$color-black: #333333;
+$color-white: #ffffff;
+$color-yellow: #fff89a;
+
+nav {
+    height: 15vh;
+    background-color: $color-white;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+    background-color: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logo {
+    max-height: 100%;
+}
+
+.website {
+    font-family: $font-display;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: $color-black;
+    margin: 15px;
+    background-color: $color-white;
+}
+
+.button {
+    font-family: $font-body;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    width: 100px;
+    background-color: $color-white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 5px solid $color-secondary;
+    color: $color-secondary;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    font-family: $font-body;
+    margin: 50px;
+}
+
+h1, h2, h5, h6, p {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+h4 {
+    font-size: 30px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h1, h3 {
+    color: $color-primary;
+}
+
+h2, h4, h5, h6, p {
+    color: $color-secondary;
+}
+h5, h6, p {
+    font-weight: normal;
+}
+
+.mockup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    margin-top: 50px;
+}
+
+.button2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: $font-body;
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+    width: 300px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+}
+
+span {
+    font-weight: bold;
+    color: $color-secondary;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box img {
+    margin: auto;
+    height: 350px;
+}
+
+.footer-flex-container {
+    background-color:$color-yellow;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+a {
+    background-color: $color-yellow;
+}
